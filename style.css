@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: "Raleway",sans-serif;
+    text-align: center;
+    color: rgba(0,0,0,.5);
+    background: linear-gradient(to right,#FF0000,#FFFF00);
+   
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: black;
+    width: 100%;
+    font-weight: 300;
+    font-size: 4.7em;
+}
+
+#input{
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    transition: all .8s;
+
+}
+
+h2:hover{
+    color: whitesmoke;
+}
+
+#footer{
+    position: absolute;
+    top: 90%;
+    bottom: 0;
+    font-size: 2.5em;
+    font-family: monospace;
+    color: rgba(5, 4, 5, 0.7);
+    width: 100%;
+    text-align: center;
+}
+#footer span{
+    font-weight: 400;
+    font-size: .8em;
+}
+button{
+    border-radius: 10%;
+    padding: 3px;
+    margin: 3px;
+    background-color: red;
+    
+}
+
+button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+
+
+}
+    
+
+
+@media screen and (max-width: 600px){
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+
+    }
+    h1{
+        font-size: 40px; 
+        letter-spacing: normal;
+    }
+    #input{
+        gap: normal;
+
+    }
+    h2{
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+    #footer{
+        font-size: 2em
+    }
+    button a{
+        font-size: 18px;
+        margin: 1px;
+        padding: 1px;
+    }
+    
+
+  }
+  @media screen and (max-width: 350px){
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+
+    }
+    h1{
+        font-size: 27px;  
+        letter-spacing: normal;
+    }
+    #input{
+        gap: normal;
+
+    }
+    h2{
+        font-size: 15px;
+        letter-spacing: normal;
+    }
+    #footer{
+        font-size: 1.6em
+    }
+    button a{
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 200px){
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+
+    }
+    h1{
+        font-size: 18px;  
+        letter-spacing: normal;
+    }
+    #input{
+        gap: normal;
+
+    }
+    h2{
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+    #footer{
+        font-size: 1.1em
+    }
+    button a{
+        font-size: 9px;
+        margin: 0;
+        padding: 0;
+    }
+    
+  }
