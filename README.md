@@ -1,7 +1,2 @@
 # ColorGradient
-Change color of the page and you can see the color changed values so copy paste.
-
-The color of the page changes with respect to the input color and the value is displayed on the screen. So you can copy past the color value and use it anywhere in your application/websites/WebContents.
-
-
-Thank you.
+With this tool, designing eye-catching backgrounds becomes a breeze, allowing users to bring their creative ideas to life with vibrant and harmonious color schemes. Whether you're a developer, designer, or someone who just loves playing with colors, the Background Color Generator adds a splash of fun and functionality to your creative toolbox.
